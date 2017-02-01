@@ -1,6 +1,9 @@
 {
-    "name": "psr/simple-cache",
-    "description": "Common interfaces for simple caching",
+    "name": "mindplay/simple-cache",
+    "replace": {
+        "psr/simple-cache": "*"
+    },
+    "description": "Replacement PSR-16 package, correctly type-hinted for PHP 5.3+",
     "keywords": ["psr", "psr-16", "cache", "simple-cache", "caching"],
     "license": "MIT",
     "authors": [
